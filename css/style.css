@@ -94,6 +94,14 @@ banner  part stgart
     background: red;
 
 }
+.banner .banner_button2{
+    position: relative;
+}
+.banner .banner_button2 .buttonIcon {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+}
 /* ============
 banner  part end
 ============== */
