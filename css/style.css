@@ -6,6 +6,31 @@ a{
 ul,ol{
     list-style: none;
 }
+
+.common_title h2{
+    font-size: 48px;
+    color: #282938;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+.common_title p{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+    padding: 16px 0px;
+
+}
+.common_title a{
+    font-size: 16px;
+    color: #2405F2;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  
+
+}
 /* common css */
 /* ============
 navber part start
@@ -132,4 +157,50 @@ banner  part stgart
 }
 /* ============
 banner  part end
+============== */
+/* ============
+work  part staret
+============== */
+.work{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+.work .box{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.work .card{
+    width: 50%;
+    background: transparent;
+    border: 0px;
+   
+}
+.work .card img{
+    width: 20%;
+   
+}
+.work .card h4{
+    font-size: 32px;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-top: 16px;
+    padding-bottom: 8px;
+   
+}
+.work .card p{
+    font-size: 16px;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 301px;
+   
+}
+
+
+
+/* ============
+work  part end
 ============== */
