@@ -1,5 +1,12 @@
 
-
+/* common css */
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* common css */
 /* ============
 navber part start
 ============== */
@@ -36,6 +43,15 @@ nav{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     border: 1px solid white;
+    transition: 0.4s;
+    
+}
+.navber_button:hover{
+    background: #FCD980;
+    border: 1px solid transparent;
+    color: black;
+    
+    
 }
 
  
@@ -71,14 +87,24 @@ banner  part stgart
 
 .banner .banner_button{
     background: #FCD980;
-    text-decoration: none;
+   
     padding: 16px 56px;
     border-radius: 40px;
     color: #000;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     transition: 0.4s;
+    border: 1px solid transparent;
    
+
+}
+
+.banner .banner_button:hover{
+    background: transparent;
+    border-color: white;
+    color: white;
+
+    
 
 }
 .banner .banner_button2{
@@ -90,17 +116,19 @@ banner  part stgart
     
 
 }
-.banner .banner_button:hover{
-    background: red;
-
-}
 .banner .banner_button2{
     position: relative;
 }
 .banner .banner_button2 .buttonIcon {
     position: absolute;
     top: 22px;
-    right: 24px;
+    right: 56px;
+    opacity: 0;
+}
+.banner .banner_button2:hover .buttonIcon {
+    
+    right: 22px;
+    opacity: 1;
 }
 /* ============
 banner  part end
