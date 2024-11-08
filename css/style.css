@@ -204,3 +204,102 @@ work  part staret
 /* ============
 work  part end
 ============== */
+/* ============
+Project  part start
+============== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 64px;
+}
+.project .box h2{
+    font-size: 48px;
+   
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.project .box p{
+    margin-top: 12px; 
+    font-size: 16px;
+   
+    color:black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.project p i{
+   margin-left: 10px;   
+}
+
+.project img{
+    width: 100%;
+}
+.project .imgage_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.project .imageTwo{
+    margin-left: 9px;
+}
+
+.project .fastImage{
+    position: relative;
+    overflow: hidden;
+
+  
+}
+
+.project .overly{
+    width: 52%;
+    height: 100%;
+    background-image:linear-gradient(to right, #1c1e536b, #1C1E53 );
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 36px;
+   
+}
+
+.project .fastImage:hover .overly{
+    left: 0;
+
+}
+
+.project .fastImage .overly h4{
+    font-size: 24px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+}
+.project .fastImage .overly p{
+    font-size: 16px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+.project .fastImage .overly a{
+    font-size: 16px;
+    color: #FCD980;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.project .fastImage .overly a i{
+    margin-left: 10px;
+}
+/* ============
+Project  part end
+============== */
