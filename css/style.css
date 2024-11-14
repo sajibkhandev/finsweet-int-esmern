@@ -357,3 +357,79 @@ Featuer  part start
 /* ============
 Featuer  part end
 ============== */
+/* ============
+ablut  part start
+============== */
+
+.about{
+    padding: 130px 0px;
+    background: rgba(244, 246, 252,0.5);
+}
+
+.about h2{
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    font-weight: 600;
+    width: 327px;
+}
+.about .para_one{
+    padding-top: 16px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    font-weight: 400;
+    width: 327px;
+}
+.about h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    line-height: 48px;
+
+
+}
+
+.about .profile-area{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 14px;
+    padding-top: 48px;
+}
+.about .profile-area h6{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+   
+
+}
+.about .profile-area .para_two{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+   
+
+}
+/* ============
+ablut  part end
+============== */
+/* ============
+Faq  part start
+============== */
+
+.faq{
+    padding: 128px 0px;
+}
+
+.accordion-header .span{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+
+/* ============
+Faq  part end
+============== */
