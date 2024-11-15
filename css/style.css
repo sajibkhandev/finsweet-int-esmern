@@ -1,5 +1,10 @@
 
 /* common css */
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
 a{
     text-decoration: none;
 }
@@ -12,7 +17,7 @@ ul,ol{
     font-size: 48px;
     color: #282938;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    
 
 }
 .common_title p{
@@ -20,7 +25,7 @@ ul,ol{
     font-size: 16px;
     color: #282938;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    
     width: 405px;
     padding: 16px 0px;
 
@@ -29,7 +34,7 @@ ul,ol{
     font-size: 16px;
     color: #2405F2;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+  
   
 
 }
@@ -429,7 +434,127 @@ Faq  part start
     font-size: 20px;
     color: blue;
 }
+.accordion-button{
+    font-size: 24px;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
 
+
+.accordion-button.collapsed{
+    
+    color: #000 !important;
+
+    
+}
+.accordion-button{
+    
+    color: #fff !important;
+   
+
+}
+.accordion-item{
+    border: 0px !important;
+}
+.accordion-body{
+    border-bottom: 1px solid #ECECF1;
+    padding-left: 74px;
+    padding-right: 60px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    font-size: 18px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+
+
+}
+
+
+ .accordion-button::after{  
+    background-image: none;
+    content: "+";
+    
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+.accordion-button:not(.collapsed)::after{    
+    background-image: none;
+    content: "x";
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    transform: translateY(-50%);
+
+} 
 /* ============
 Faq  part end
+============== */
+/* ============
+Blog  part start
+============== */
+.blog{
+    padding: 128px 0px;
+}
+.blog h2{
+    font-size: 48px;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.blog .card{
+    width: 100% !important;
+    border: 0px !important;
+}
+.blog .card-body{
+    padding: 0 !important;
+}
+
+.blog .card-text-one{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 16px;
+    padding-top: 40px;
+
+}
+.blog .card-title{
+    font-size: 24px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+}
+.blog .card-text-two{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+
+}
+.blog .read-button{
+    font-size: 18px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+   
+    
+
+}
+.blog .read-button i{
+  padding-left: 30px;
+   
+    
+
+}
+/* ============
+Blog  part end
 ============== */
