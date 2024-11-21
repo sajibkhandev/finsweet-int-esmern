@@ -558,3 +558,106 @@ Blog  part start
 /* ============
 Blog  part end
 ============== */
+/* ============
+contact  part start
+============== */
+
+.contact .contact-image-box{
+    position: relative;
+    overflow: hidden;
+    height: 100% !important;
+    
+}
+
+.contact .contact-image-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contact-image-box .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83,0.5);
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    padding: 96px;
+    transition: .4s;
+}
+.contact .contact-image-box .overly h2{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding-bottom: 24px;
+ 
+}
+.contact .contact-image-box .overly p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    
+ 
+}
+.contact .contact-image-box:hover .overly{
+    top: 0;
+    left: 0;
+
+}
+.contact .all-input-fleid{
+    padding: 96px;
+}
+.contact .all-input-fleid h4{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+    
+}
+.contact .all-input-fleid p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    
+}
+.contact .box{
+    background: #1C1E53;
+}
+
+.contact .all-input-fleid input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255,0.05);
+    padding: 18px 32px;
+    margin: 16px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.contact .all-input-fleid input::placeholder{
+    font-size: 16px;
+    color: #F4F6FC;
+}
+.contact .all-input-fleid .contact-button{
+    background: #FCD980;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 41px;
+}
+.contact .all-input-fleid .contant-icon{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+/* ============
+contact  part end
+============== */
