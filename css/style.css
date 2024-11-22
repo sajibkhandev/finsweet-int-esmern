@@ -1,6 +1,7 @@
 
 /* common css */
 
+
 body{
     font-family: "Poppins", sans-serif;
     
@@ -660,4 +661,95 @@ contact  part start
 
 /* ============
 contact  part end
+============== */
+/* ============
+Footer  part start
+============== */
+
+.footer{
+    background: #1C1E53;
+    padding-top: 100px;
+    padding-bottom: 96px;
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    
+    
+    
+
+}
+.footer .paraOne{
+    padding-top: 22px;
+    width: 400px;
+}
+.footer .paraTwo{
+    width: 400px;
+
+}
+.footer h4{
+    color: white;
+
+}
+.footer ul{
+    display: flex;
+    column-gap: 26px;
+    padding: 0;
+}
+.footer ul li i{
+    color: white;
+}
+
+
+.footer .add-box{
+    display: flex;
+    justify-content: space-around;
+    background: #FCD980;
+    width: 517px;
+    padding: 16px 0px;
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+}
+
+.footer .add-box h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.footer .add-box p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.copy .box{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+}
+
+
+.copy ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+.copy ul li{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: .4s;
+    cursor: pointer;
+}
+.copy ul li:hover{
+    color: red;
+}
+
+/* ============
+Footer  part end
 ============== */
