@@ -1,0 +1,472 @@
+@media (min-width:320px )and (max-width:575px){
+    /* navber responsive start */
+    .navbar-toggler{
+        background:white;
+        color: black;
+    }
+   
+    .navbar-collapse{
+       background: blue;
+       color: red;
+       padding: 30px 0px;
+       margin-top: 30px;
+       border-radius: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       
+    }
+    .navbar-nav{
+        margin-left: 70px !important;
+    }
+    .navber_button{
+        display: inline-block;
+    }
+    /* navber responsive end */
+
+    .banner{
+        padding: 100px 0px;
+    }
+    .banner h2 {
+        font-size: 26px;
+        line-height: 48px;
+       
+    }
+    .banner p {
+        
+        
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 36px;
+    }
+    .banner .banner_button {
+        
+        padding: 12px 15px;
+       
+       
+    }
+    .banner .banner_button2 {
+       
+        padding: 12px 22px;
+       
+    }
+    .banner .banner_button2:hover .buttonIcon {
+        right: 0px;
+        
+    }
+    .banner .banner_button2 .buttonIcon {
+        
+        top: 18px;
+       
+    }
+    .banner img {
+        width: 90%;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+
+    /* work part start */
+    .work {
+        padding: 100px 0px;
+        
+    }
+    .common_title h2 {
+        font-size: 32px;
+        
+    }
+    .common_title p {
+        
+        width: auto;
+        
+    }
+    .work .card {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+    .work .card h4 {
+        font-size: 22px;
+        padding-top: 12px;
+        padding-bottom: 6px;
+    }
+    /* work part end */
+    /* project part start */
+
+    .project .box{
+        display: block;
+    }
+    .project .box h2{
+        font-size: 32px;
+
+    }
+    .project img {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 30px;
+        
+    }
+    .project .overly {
+        padding-top: 9px;
+        padding-left: 11px;
+        padding-right: 10px;
+    }
+    .project .fastImage .overly h4 {
+        font-size: 16px;
+       
+    }
+    .project .fastImage .overly p {
+        font-size: 14px;
+        padding-top: 6px; 
+        padding-bottom: 0px;
+        line-height: 20px;
+        
+    }
+    .project .fastImage .overly a {
+        font-size: 14px;
+        
+    }
+   
+    
+    /* project part end */
+    /* Featuer part start */
+    .featuer {
+        padding: 70px 0px;
+    }
+    .featuer .featuer_common_title h2 {
+        width: auto;
+       
+    }
+    .featuer .featuer_common_title p {
+        width: auto;
+       
+    }
+    .featuer .featuer_Card h4 {
+       
+        font-size: 18px;
+       
+    }
+    .featuer .featuer_Card p {
+       
+        font-size: 14px;
+       
+    }
+        
+    /* Featuer part end */
+
+}
+@media (min-width:576px )and (max-width:767px){
+    /* navber responsive start */
+    .navbar-toggler{
+        background:white;
+        color: black;
+    }
+   
+    .navbar-collapse{
+       background: blue;
+       color: red;
+       padding: 30px 0px;
+       margin-top: 30px;
+       border-radius: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       
+    }
+    .navbar-nav{
+        margin-left: 70px !important;
+    }
+    .navber_button{
+        display: inline-block;
+    }
+    /* navber responsive end */
+
+    .banner{
+        padding: 100px 0px;
+    }
+    .banner h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .banner p {
+        
+        
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 36px;
+    }
+    .banner .banner_button {
+        padding: 12px 26px;
+    }
+    .banner .banner_button2 {
+       
+        padding: 12px 22px;
+       
+    }
+    .banner .banner_button2:hover .buttonIcon {
+        right: 0px;
+        
+    }
+    .banner .banner_button2 .buttonIcon {
+        
+        top: 18px;
+       
+    }
+    .banner img {
+        width: 90%;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+
+    /* work part start */
+    .work {
+        padding: 100px 0px;
+        
+    }
+    .common_title h2 {
+        font-size: 32px;
+        
+    }
+    .common_title p {
+        
+        width: auto;
+        
+    }
+    .work .card {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+    .work .card h4 {
+        font-size: 22px;
+        padding-top: 12px;
+        padding-bottom: 6px;
+    }
+    .work .card img {
+        width: 15%;
+    }
+    /* work part end */
+    /* project part start */
+
+    .project .box{
+        display: block;
+    }
+    .project .box h2{
+        font-size: 32px;
+
+    }
+    .project img {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 30px;
+        
+    }
+    .project .overly {
+        padding-top: 9px;
+        padding-left: 11px;
+        padding-right: 10px;
+    }
+    .project .fastImage .overly h4 {
+        font-size: 16px;
+       
+    }
+    .project .fastImage .overly p {
+        font-size: 14px;
+        padding-top: 6px; 
+        padding-bottom: 0px;
+        line-height: 20px;
+        
+    }
+    .project .fastImage .overly a {
+        font-size: 14px;
+        
+    }
+   
+    
+    /* project part end */
+    /* Featuer part start */
+    .featuer {
+        padding: 70px 0px;
+    }
+    .featuer .featuer_common_title h2 {
+        width: auto;
+       
+    }
+    .featuer .featuer_common_title p {
+        width: auto;
+       
+    }
+    .featuer .featuer_Card h4 {
+       
+        font-size: 18px;
+       
+    }
+    .featuer .featuer_Card p {
+       
+        font-size: 14px;
+       
+    }
+        
+    /* Featuer part end */
+
+}
+@media (min-width:767px )and (max-width:991px){
+    /* navber responsive start */
+    .navbar-toggler{
+        background:white;
+        color: black;
+    }
+   
+    .navbar-collapse{
+       background: blue;
+       color: red;
+       padding: 30px 0px;
+       margin-top: 30px;
+       border-radius: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       
+    }
+    .navbar-nav{
+        margin-left: 70px !important;
+    }
+    .navber_button{
+        display: inline-block;
+    }
+    /* navber responsive end */
+
+    .banner{
+        padding: 100px 0px;
+    }
+    .banner h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .banner p {
+        
+        
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 36px;
+    }
+    .banner .banner_button {
+        padding: 12px 26px;
+    }
+    .banner .banner_button2 {
+       
+        padding: 12px 22px;
+       
+    }
+    .banner .banner_button2:hover .buttonIcon {
+        right: 0px;
+        
+    }
+    .banner .banner_button2 .buttonIcon {
+        
+        top: 18px;
+       
+    }
+    .banner img {
+        width: 90%;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+
+    /* work part start */
+    .work {
+        padding: 100px 0px;
+        
+    }
+    .common_title h2 {
+        font-size: 32px;
+        
+    }
+    .common_title p {
+        
+        width: auto;
+        
+    }
+    .work .card {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+    .work .card img {
+        width: 12%;
+    }
+    .work .card h4 {
+        font-size: 22px;
+        padding-top: 12px;
+        padding-bottom: 6px;
+    }
+    /* work part end */
+    /* project part start */
+
+    .project .box{
+        display: block;
+    }
+    .project .box h2{
+        font-size: 32px;
+
+    }
+    .project img {
+        width: 90%;
+        height: 90%;
+        padding-bottom: 30px;
+        
+    }
+    .project .overly {
+        padding-top: 9px;
+        padding-left: 11px;
+        padding-right: 10px;
+    }
+    .project .fastImage .overly h4 {
+        font-size: 16px;
+       
+    }
+    .project .fastImage .overly p {
+        font-size: 14px;
+        padding-top: 6px; 
+        padding-bottom: 0px;
+        line-height: 20px;
+        
+    }
+    .project .fastImage .overly a {
+        font-size: 14px;
+        
+    }
+   
+    
+    /* project part end */
+    /* Featuer part start */
+    .featuer {
+        padding: 70px 0px;
+    }
+    .featuer .featuer_common_title h2 {
+        width: auto;
+       
+    }
+    .featuer .featuer_common_title p {
+        width: auto;
+       
+    }
+    .featuer .featuer_Card h4 {
+       
+        font-size: 18px;
+       
+    }
+    .featuer .featuer_Card p {
+       
+        font-size: 14px;
+       
+    }
+        
+    /* Featuer part end */
+
+}
